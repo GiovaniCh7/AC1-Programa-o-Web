@@ -1,0 +1,79 @@
+body{
+    background-color: grey; 
+}
+
+h1{
+    color:blanchedalmond;
+}
+.titulo{
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 370px;
+}
+.subTitulo{
+    text-align: center;
+    color:  orange;
+    font-size: 70px;
+    font-family: Arial ;
+}
+#subTitulo1{
+    text-decoration: none;
+    font-size: 50px;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+a:link{
+color: white;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    font-size: 20px;
+}
+a:active{
+    color: aqua;
+}
+.card{
+    background-color: black;
+    width: 1000px;
+    min-height: 600px;
+    border-radius: 10px;
+    box-shadow: 10px 5px white;
+    margin: 20px auto;
+    padding: 10px;
+}
+.cardProduto{
+    background-color: orange;
+    width: 250px;
+    min-height: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 5px orangered;
+    padding: 10px;
+    margin: 0 20px 7px 10px;
+}
+.cardProduto img {
+    width: 15rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.cardProduto h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.cardProduto p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+.fixado{
+    position: fixed;
+    right: 10px;
+    bottom: 10cap;
+}
+
